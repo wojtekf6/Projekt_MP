@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2ECDCF9E20CC114D002D9A17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCF9D20CC114D002D9A17 /* main.cpp */; };
+		2ECDCFA820CC1401002D9A17 /* TextDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFA620CC1401002D9A17 /* TextDisplay.cpp */; };
+		2ECDCFAB20CC143A002D9A17 /* GraphicalDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFA920CC143A002D9A17 /* GraphicalDisplay.cpp */; };
+		2ECDCFAF20CC168E002D9A17 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFAD20CC168E002D9A17 /* Shape.cpp */; };
+		2ECDCFC720CC2922002D9A17 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFBF20CC2922002D9A17 /* Triangle.cpp */; };
+		2ECDCFC820CC2922002D9A17 /* Parallelogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFC320CC2922002D9A17 /* Parallelogram.cpp */; };
+		2ECDCFCA20CC2922002D9A17 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFC620CC2922002D9A17 /* Circle.cpp */; };
+		2ECDCFD020CC3227002D9A17 /* ComplexShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFCF20CC3227002D9A17 /* ComplexShape.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,21 @@
 /* Begin PBXFileReference section */
 		2ECDCF9A20CC114D002D9A17 /* Projekt_MP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Projekt_MP; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECDCF9D20CC114D002D9A17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2ECDCFA620CC1401002D9A17 /* TextDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextDisplay.cpp; sourceTree = "<group>"; };
+		2ECDCFA720CC1401002D9A17 /* TextDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDisplay.h; sourceTree = "<group>"; };
+		2ECDCFA920CC143A002D9A17 /* GraphicalDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicalDisplay.cpp; sourceTree = "<group>"; };
+		2ECDCFAA20CC143A002D9A17 /* GraphicalDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicalDisplay.h; sourceTree = "<group>"; };
+		2ECDCFAC20CC148D002D9A17 /* Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Display.h; sourceTree = "<group>"; };
+		2ECDCFAD20CC168E002D9A17 /* Shape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		2ECDCFAE20CC168E002D9A17 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		2ECDCFBF20CC2922002D9A17 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		2ECDCFC020CC2922002D9A17 /* Parallelogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelogram.h; sourceTree = "<group>"; };
+		2ECDCFC220CC2922002D9A17 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		2ECDCFC320CC2922002D9A17 /* Parallelogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parallelogram.cpp; sourceTree = "<group>"; };
+		2ECDCFC420CC2922002D9A17 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		2ECDCFC620CC2922002D9A17 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		2ECDCFCE20CC3227002D9A17 /* ComplexShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexShape.h; sourceTree = "<group>"; };
+		2ECDCFCF20CC3227002D9A17 /* ComplexShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexShape.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,40 @@
 			isa = PBXGroup;
 			children = (
 				2ECDCF9D20CC114D002D9A17 /* main.cpp */,
+				2ECDCFB120CC17D6002D9A17 /* Display */,
+				2ECDCFBE20CC20D5002D9A17 /* Shape */,
 			);
 			path = Projekt_MP;
+			sourceTree = "<group>";
+		};
+		2ECDCFB120CC17D6002D9A17 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				2ECDCFA620CC1401002D9A17 /* TextDisplay.cpp */,
+				2ECDCFA720CC1401002D9A17 /* TextDisplay.h */,
+				2ECDCFA920CC143A002D9A17 /* GraphicalDisplay.cpp */,
+				2ECDCFAA20CC143A002D9A17 /* GraphicalDisplay.h */,
+				2ECDCFAC20CC148D002D9A17 /* Display.h */,
+			);
+			name = Display;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2ECDCFBE20CC20D5002D9A17 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				2ECDCFCF20CC3227002D9A17 /* ComplexShape.cpp */,
+				2ECDCFCE20CC3227002D9A17 /* ComplexShape.h */,
+				2ECDCFC620CC2922002D9A17 /* Circle.cpp */,
+				2ECDCFC220CC2922002D9A17 /* Circle.h */,
+				2ECDCFC320CC2922002D9A17 /* Parallelogram.cpp */,
+				2ECDCFC020CC2922002D9A17 /* Parallelogram.h */,
+				2ECDCFBF20CC2922002D9A17 /* Triangle.cpp */,
+				2ECDCFC420CC2922002D9A17 /* Triangle.h */,
+				2ECDCFAD20CC168E002D9A17 /* Shape.cpp */,
+				2ECDCFAE20CC168E002D9A17 /* Shape.h */,
+			);
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECDCF9E20CC114D002D9A17 /* main.cpp in Sources */,
+				2ECDCFC820CC2922002D9A17 /* Parallelogram.cpp in Sources */,
+				2ECDCFD020CC3227002D9A17 /* ComplexShape.cpp in Sources */,
+				2ECDCFAB20CC143A002D9A17 /* GraphicalDisplay.cpp in Sources */,
+				2ECDCFA820CC1401002D9A17 /* TextDisplay.cpp in Sources */,
+				2ECDCFCA20CC2922002D9A17 /* Circle.cpp in Sources */,
+				2ECDCFC720CC2922002D9A17 /* Triangle.cpp in Sources */,
+				2ECDCFAF20CC168E002D9A17 /* Shape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
