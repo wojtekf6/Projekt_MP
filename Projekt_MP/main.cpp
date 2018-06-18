@@ -14,37 +14,61 @@ int main() {
     Display *w2 = new TextDisplay();
     
     Shape *o1 = new Circle(w1,3);
-    Shape *o2 = new Triangle(w2, 1, 2, 2, 3);
-    Shape *o3 = new Parallelogram(w2, 1, 4, 2, 1);
+    Shape *o2 = new Triangle(w1, 3, 2, 2, -1);
+    Shape *o3 = new Parallelogram(w1, 3, 2, 2, -2);
     
     ComplexShape *comlexShape = new ComplexShape(w2);
     comlexShape -> add(o1);
-    comlexShape -> add(o1);
-    comlexShape -> add(o3);
-    comlexShape -> add(o1);
     comlexShape -> add(o2);
+    comlexShape -> add(o3);
     
-    comlexShape -> Draw();
+    try {
+        comlexShape -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
     
-    std::cout<<"----"<<std::endl;
-    
-    o1 -> Draw();
-    o2 -> Draw();
-    o3 -> Draw();
-    
-    std::cout<<"----"<<std::endl;
+    try {
+        o1 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
+    try {
+        o2 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
+    try {
+        o3 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
     
     o1 -> changeDisplay(w2);
-    o2 -> changeDisplay(w1);
-    o3 -> changeDisplay(w1);
+    o2 -> changeDisplay(w2);
+    o3 -> changeDisplay(w2);
     
-    comlexShape -> Draw();
+    try {
+        comlexShape -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
     
-    std::cout<<"----"<<std::endl;
-    
-    o1 -> Draw();
-    o2 -> Draw();
-    o3 -> Draw();
+    try {
+        o1 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
+    try {
+        o2 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
+    try {
+        o3 -> Draw();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
     
     delete w1;
     delete w2;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBCEE4A20D7AE9500428D30 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EBCEE4920D7AE9500428D30 /* Exceptions.cpp */; };
 		2ECDCF9E20CC114D002D9A17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCF9D20CC114D002D9A17 /* main.cpp */; };
 		2ECDCFA820CC1401002D9A17 /* TextDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFA620CC1401002D9A17 /* TextDisplay.cpp */; };
 		2ECDCFAB20CC143A002D9A17 /* GraphicalDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDCFA920CC143A002D9A17 /* GraphicalDisplay.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2EBCEE4720D7A9CA00428D30 /* Exceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exceptions.h; sourceTree = "<group>"; };
+		2EBCEE4920D7AE9500428D30 /* Exceptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions.cpp; sourceTree = "<group>"; };
 		2ECDCF9A20CC114D002D9A17 /* Projekt_MP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Projekt_MP; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECDCF9D20CC114D002D9A17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2ECDCFA620CC1401002D9A17 /* TextDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextDisplay.cpp; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				2ECDCF9D20CC114D002D9A17 /* main.cpp */,
+				2EBCEE4720D7A9CA00428D30 /* Exceptions.h */,
+				2EBCEE4920D7AE9500428D30 /* Exceptions.cpp */,
 				2ECDCFB120CC17D6002D9A17 /* Display */,
 				2ECDCFBE20CC20D5002D9A17 /* Shape */,
 			);
@@ -177,6 +182,7 @@
 				2ECDCFD020CC3227002D9A17 /* ComplexShape.cpp in Sources */,
 				2ECDCFAB20CC143A002D9A17 /* GraphicalDisplay.cpp in Sources */,
 				2ECDCFA820CC1401002D9A17 /* TextDisplay.cpp in Sources */,
+				2EBCEE4A20D7AE9500428D30 /* Exceptions.cpp in Sources */,
 				2ECDCFCA20CC2922002D9A17 /* Circle.cpp in Sources */,
 				2ECDCFC720CC2922002D9A17 /* Triangle.cpp in Sources */,
 				2ECDCFAF20CC168E002D9A17 /* Shape.cpp in Sources */,
